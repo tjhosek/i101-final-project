@@ -1,14 +1,55 @@
 <html>
     <head>
         <title>I101 Final Porject - Solution</title>
+        <link rel="stylesheet" href='Skeleton-2.0.4/css/skeleton.css'>
+        <link rel="stylesheet" href="main.css">
+        <script src='main.js'></script>
     </head>
     <body>
         <ul class='menu'>
-            <li><a href='i101project.html'>Main</a></li>
-            <li><a href='research.html'>Research</a></li>
-            <li><a href="datavis.html">Data Visualization</a></li>
-            <li><a href="solution.html">Solution</a></li>
-            <li><a href="presentation.html">presentation</a></li>
+            <li class='menu'><a href='i101project.html'>Main</a></li>
+            <li class='menu'><a href='research.html'>Research</a></li>
+            <li class='menu'><a href="datavis.html">Data Visualization</a></li>
+            <li class='menu active'><a href="solution.html">Solution</a></li>
+            <li class='menu'><a href="presentation.html">presentation</a></li>
         </ul>
+        <div class='container'>
+            <div class='column'>
+                <h1>The Solution</h1>
+                <p>
+                    Our soulution takes the form of an app for not only event managers, but also for students and teachers. Thus, the app is split into two interfaces: one for event organizers and teachers and one for students.
+                </p>
+                <h2>Organizer Side</h2>
+                <p>
+                    Organizers will be able to create new events and edit existing ones. Events will have the following attributes:
+                    <ol>
+                        <li>
+                            Date and Time: When the event will take place and for how long.
+                        </li>
+                        <li>
+                            Location: Where the event will be. This could be many things, such as a room, building, campus, or other locale.
+                        </li>
+                        <li>
+                            Optionality: Whether the event is mandatory for students, and what students will have to go to the event.
+                        </li>
+                        <li>
+                            Incentive: A reward for students who attend the event, whether through the in app point system or some external form of reward, such as extra credit or raffles.
+                        </li>
+                        <li>
+                            People: Who will be organizing, managing, providing, and attending the event. This could include bands that may play or people who may give presentations.
+                        </li>
+                    </ol>
+                    Organizers will need to be able to change all aspects of an event at any time, and any notable changes will automatically notify the students who plan to attend. The app should interface with social media in order to provide information about notable people attending the event. Organizers will also be able to scan students into events, as to ensure attendance
+                </p>
+                <h2>Attendee Side</h2>
+                <p>
+                    Attendees will be able to browse local events, be informed of mandatory events, and use the in app point system to claim rewards. Attendees will also be able to use the app to scan into events to show attendance. Attendees should be able to see most of the information provided for an event by the organizers. Importantly, attendees should be able to rsvp to events, enabling them to recieve notifications about updates and enabling organizers to get a sense of how many people will be attending.
+                </p>
+                <h2>Point System</h2>
+                <p>
+                    An in app point system will be implemented in order to relieve some of the stress over organizing incentives. The system is entirely optional, and alternative real world incentives can be used in place of it. The point system gives points for attending events. Value and weight of points is defined by the event organizers, as is the rewards. Example rewards for accumulating enough
+                </p>
+            </div>
+        </div>
     </body>
 </html>
