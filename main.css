@@ -36,3 +36,7 @@ li.active {
     height: auto;
     margin-top: 2in;
 }
+.aboutitem {
+    height: auto;
+    width: 65%
+}
