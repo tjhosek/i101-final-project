@@ -27,3 +27,12 @@ li a:hover {
 li.active {
     background-color: darkslategray
 }
+.responsive{
+    width: auto;
+    height: 75%;
+}
+.galleryArrows{
+    width: 75px;
+    height: auto;
+    margin-top: 2in;
+}
