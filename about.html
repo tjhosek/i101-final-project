@@ -3,19 +3,29 @@
         <title>I101 Final Porject - About</title>
         <link rel="stylesheet" href='Skeleton-2.0.4/css/skeleton.css'>
         <link rel="stylesheet" href="main.css">
-        <script src='main.js'>
+        <script>
         function hover(image) {
-            var hover_target = document.getElementById(image)
-            hover_target.addEventListener('mouseover', event => {
-                hover_target.style.width = '75%'
-            })
+            var hover_target = document.getElementById(image);
+            hover_target.addEventListener('mouseenter', event => {
+                hover_target.style.width = '75%';
+            });
             hover_target.addEventListener('mouseout', event => {
-                hover_target.style.width = '65%'
-            })
+                hover_target.style.width = '65%';
+            });
         }
+
+        function set_hover() {
+            hover('cole');
+            hover('trevor');
+            hover('ryan');
+            hover('helen');
+            hover('cooper');
+        }
+
+        
         </script>
     </head>
-    <body>
+    <body onload='set_hover()'>
         <ul class='menu'>
             <li class='menu'><a href='i101project.html'>Main</a></li>
             <li class='menu'><a href='research.html'>Research</a></li>
@@ -36,7 +46,7 @@
                 <div class='two columns'>
                     <div class="row">
                         <a href='http://pages.iu.edu/~tjhosek/i101/index.html'>
-                            <img class='aboutitem' src='Images/trevor.jpg'>
+                            <img id='trevor' class='aboutitem' src='Images/trevor.jpg'>
                         </a>
                     </div>
                     <div class='row'>
@@ -46,25 +56,25 @@
                 </div>
                 <div class='two columns'>
                     <a href='http://pages.iu.edu/~cojmetz/i101/index.html'>
-                        <img class='aboutitem' src ='Images/cole.jpg'>
+                        <img id="cole" class='aboutitem' src ='Images/cole.jpg'>
                     </a>
                     <h4>Cole Metzger</h4>
                 </div>
                 <div class='two columns'>
                     <a href='http://pages.iu.edu/~coopwhit/i101/index.html'>
-                        <img class='aboutitem' src='Images/cooper.jpg'>
+                        <img id='cooper' class='aboutitem' src='Images/cooper.jpg'>
                     </a>
                     <h4>Cooper White</h4>
                 </div>
                 <div class='two columns'>
                     <a href='http://pages.iu.edu/~hrdupree/i101/index.html'>
-                        <img class='aboutitem' src='Images/helen.jpg'>
+                        <img id='helen' class='aboutitem' src='Images/helen.jpg'>
                     </a>
                     <h4>Helen DuPree</h4>
                 </div>
                 <div class='two columns'>
                     <a href='http://pages.iu.edu/~rgesas/i101/index.html'>
-                        <img class='aboutitem' src='Images/ryan.jpg'>
+                        <img id='ryan' class='aboutitem' src='Images/ryan.jpg'>
                     </a>
                     <h4>Ryan Gesas</h4>
                 </div>
