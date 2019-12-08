@@ -3,7 +3,16 @@
         <title>I101 Final Porject - Data Visualization</title>
         <link rel="stylesheet" href='Skeleton-2.0.4/css/skeleton.css'>
         <link rel="stylesheet" href="main.css">
-        <script src='main.js'></script>
+        <script>
+        function arrow(){
+            var image = document.getElementById("datavizImage")
+            if (image.src.match("i101_viz1.png")){
+                image.src = "i101_viz2.png";
+            } else {
+                image.src = "i101_viz1.png"
+            }
+        }
+        </script>
     </head>
     <body>
         <ul class='menu'>
