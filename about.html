@@ -3,7 +3,17 @@
         <title>I101 Final Porject - About</title>
         <link rel="stylesheet" href='Skeleton-2.0.4/css/skeleton.css'>
         <link rel="stylesheet" href="main.css">
-        <script src='main.js'></script>
+        <script src='main.js'>
+        function hover(image) {
+            var hover_target = document.getElementById(image)
+            hover_target.addEventListener('mouseover', event => {
+                hover_target.style.width = '75%'
+            })
+            hover_target.addEventListener('mouseout', event => {
+                hover_target.style.width = '65%'
+            })
+        }
+        </script>
     </head>
     <body>
         <ul class='menu'>
