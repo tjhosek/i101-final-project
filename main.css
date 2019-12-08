@@ -25,5 +25,18 @@ li a:hover {
 }
 
 li.active {
-    background-color: darkslategray
+    background-color: darkslategray;
+}
+.hang {
+    text-indent: -4em;
+    margin-left: 6em;
+}
+.responsive{
+    width: auto;
+    height: 75%;
+}
+.galleryArrows{
+    width: 75px;
+    height: auto;
+    margin-top: 2in;
 }
