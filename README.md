@@ -1,2 +1,2 @@
 # i101-final-project
-This is the main repository for out i101 project.
+This is the main repository for our i101 project.
